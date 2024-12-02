@@ -15,7 +15,7 @@ const TodoItem=({todo})=>{
 
 
     return(
-        <div className="border rounded-md p-2 bg-[#FFDAE9] flex items-center gap-2">
+        <div className="border rounded-md p-2 bg-[#8b546a] flex items-center gap-2">
             <input type="checkbox" className="h-5 w-5 " onClick={checkBoxHandler}/>
 
             <input className="outline-none  p-1 w-full  text-[20px] font-[cursive] font-semibold"
